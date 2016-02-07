@@ -1,0 +1,36 @@
+<fairsim>
+<sim-param>
+<nr-angles type="int"> 3 </nr-angles>
+<microns-per-pxl type="decimal"> 8.00000e-02 </microns-per-pxl>
+<wiener-parameter type="decimal"> 5.00000e-02 </wiener-parameter>
+<nr-bands type="int"> 3 </nr-bands>
+<img-size-pxl type="int"> 512 </img-size-pxl>
+<apodization-cutoff type="decimal"> 2.00000e+00 </apodization-cutoff>
+<nr-phases type="int"> 5 </nr-phases>
+<img-seq type="string">PZA</img-seq>
+<dir-2>
+<shift type="decimal"> 1.90144e+02 4.99889e+01 </shift>
+<phase-offset type="decimal"> 2.16198e+00 </phase-offset>
+<modulations type="decimal"> 1.00000e+00 9.46642e-02 6.01721e-01 </modulations>
+</dir-2>
+<dir-1>
+<shift type="decimal"> -5.28778e+01 -1.89522e+02 </shift>
+<phase-offset type="decimal"> -1.02574e+00 </phase-offset>
+<modulations type="decimal"> 1.00000e+00 5.14881e-02 5.70836e-01 </modulations>
+</dir-1>
+<dir-0>
+<shift type="decimal"> 1.37411e+02 -1.40922e+02 </shift>
+<phase-offset type="decimal"> -1.86183e+00 </phase-offset>
+<modulations type="decimal"> 1.00000e+00 5.36570e-01 6.93214e-01 </modulations>
+</dir-0>
+</sim-param>
+<otf2d>
+<NA type="decimal"> 1.40000e+00 </NA>
+<attenuation>
+<FWHM type="decimal"> 2.00000e+00 </FWHM>
+<strength type="decimal"> 9.99500e-01 </strength>
+</attenuation>
+<a-estimate type="decimal"> 3.00000e-01 </a-estimate>
+<emission type="int"> 525 </emission>
+</otf2d>
+</fairsim>
